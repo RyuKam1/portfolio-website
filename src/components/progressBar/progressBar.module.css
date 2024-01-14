@@ -1,0 +1,23 @@
+.progressBar {
+  width: 500px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: stretch;
+  border-radius: 60px;
+  background-color: #494b52;
+  box-shadow: 0px 0px 20px #111;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+.bar {
+  width: 0%;
+  background: white;
+  box-shadow: 0px 0px 10px 5px white;
+}
+
+.progressText {
+  margin-left: 10px;
+}
