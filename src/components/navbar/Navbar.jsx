@@ -1,4 +1,6 @@
-import React from 'react'
+"use client"
+
+import React, { useState } from 'react'
 import styles from "./navbar.module.css"
 import Link  from 'next/link'
 import NavLink from './navLink/NavLink'
@@ -27,9 +29,28 @@ function Navbar() {
         },
 
     ]
+    const [isHovering, setIsHovering] = useState(false);
+
+    const handleMouseOver = () => {
+      setIsHovering(true);
+    };
+  
+    const handleMouseOut = () => {
+      setIsHovering(false);
+    };
+
   return (
-    <div className={styles.container}>
-        <Link href="/" className={styles.logo}>YuBlog</Link>
+    <div className={styles.container}
+>       <div className={styles.logoContainer} onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+        {isHovering && (
+            <Link href="/" className={styles.logo}>გიორგი</Link>
+        )}
+        {!isHovering && (
+            <Link href="/" className={styles.logo}>Giorgi</Link>
+        )}
+        </div>
+        
+        
 
         <div className={styles.links}>
             {links.map(link => (
