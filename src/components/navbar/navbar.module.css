@@ -25,4 +25,6 @@
     text-align: center;
     font-weight: bold;
     font-size: 30px;
+    transition: ease-in-out 0.5s;
+    
 }
