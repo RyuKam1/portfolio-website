@@ -47,8 +47,9 @@ export default function Home() {
               "Python Developer",
               "Software Engineer",
               "Arduino Programmer",
-              "Electrical Engineer",
+              "Electric Engineer",
               "Unreal Engine Developer",
+              "Android Developer",
             ]}
             typeSpeed={50}
             loop={true}
@@ -60,8 +61,9 @@ export default function Home() {
           <br /> My experience contains Web Development(HTML, CSS, Javascript,
           React.js, Next.js),
           <br /> Software Development(Python), <br /> Unreal Engine Game
-          Developing (with some unity experience too) <br />
-          and Arduino/raspberryPI Electrical Engineering
+          Developing (with some unity experience too), <br />
+          Arduino/raspberryPI Electrical Engineering and <br />
+          Android Developer
         </span>
         <button className={styles.btn}>Hire Me</button>
       </div>

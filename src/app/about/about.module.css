@@ -103,3 +103,96 @@
   -moz-box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
   box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
 }
+
+.exp_eduContainer {
+  display: flex;
+  margin: 0 30vh;
+}
+
+.education,
+.experience {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 30px;
+}
+
+.educationTitle,
+.experienceTitle {
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: white;
+}
+.row {
+  margin: 50px;
+}
+
+.timelineBox {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.timeline {
+  padding: 30px 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 20px white;
+}
+
+.timeline_item {
+  position: relative;
+  padding-left: 37px;
+  padding-bottom: 50px;
+}
+
+.timeline_item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline_item::before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 100%;
+  left: 7px;
+  top: 0;
+  background-color: white;
+}
+
+.circle_dot {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.timeline_date {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.timeline_title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 18px;
+  text-transform: capitalize;
+  color: white;
+}
+
+.timeline_text {
+  line-height: 25px;
+  font-size: 16px;
+  text-align: justify;
+  color: white;
+}

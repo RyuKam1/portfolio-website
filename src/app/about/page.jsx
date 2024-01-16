@@ -3,6 +3,7 @@
 import React from "react";
 import styles from "./about.module.css";
 import ProgressBar from "@/components/progressBar/ProgressBar";
+import CountUp from "react-countup";
 
 function About() {
   return (
@@ -43,6 +44,8 @@ function About() {
           <ProgressBar progress={74}></ProgressBar>
           <p>Unreal Engine</p>
           <ProgressBar progress={37}></ProgressBar>
+          <p>Android Studio</p>
+          <ProgressBar progress={46}></ProgressBar>
         </div>
       </div>
 
@@ -82,6 +85,265 @@ function About() {
 
         <button className={styles.btn}>Download CV</button>
         <button className={styles.btn}>Hire Me</button>
+      </div>
+      <div className={styles.exp_eduContainer}>
+        <div className={styles.education}>
+          <h1 className={styles.educationTitle}>Education</h1>
+
+          <div className={styles.row}>
+            <div className={styles.timelineBox}>
+              <div className={styles.timeline}>
+                <div className={styles.timeline_item}>
+                  <div className={styles.circle_dot}></div>
+                  <h3 className={styles.timeline_date}>
+                    <i className={styles.fa}>
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={1999}
+                        separator={""}
+                      />
+                      {"- "}
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={2021}
+                        separator={""}
+                      />
+                    </i>
+                  </h3>
+                  <h4 className={styles.timeline_title}>
+                    Master in Computer Science
+                  </h4>
+                  <p className={styles.timeline_text}>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis obcaecati delectus magni, odit facere, consequuntur
+                    suscipit iste sunt dicta tenetur minima, amet aspernatur
+                    praesentium eos pariatur earum quae id fugiat.
+                  </p>
+                </div>
+
+                <div className={styles.timeline_item}>
+                  <div className={styles.circle_dot}></div>
+                  <h3 className={styles.timeline_date}>
+                    <i className={styles.fa}>
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={1999}
+                        separator={""}
+                      />
+                      {"- "}
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={2021}
+                        separator={""}
+                      />
+                    </i>
+                  </h3>
+                  <h4 className={styles.timeline_title}>
+                    Master in Computer Science
+                  </h4>
+                  <p className={styles.timeline_text}>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis obcaecati delectus magni, odit facere, consequuntur
+                    suscipit iste sunt dicta tenetur minima, amet aspernatur
+                    praesentium eos pariatur earum quae id fugiat.
+                  </p>
+                </div>
+
+                <div className={styles.timeline_item}>
+                  <div className={styles.circle_dot}></div>
+                  <h3 className={styles.timeline_date}>
+                    <i className={styles.fa}>
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={1999}
+                        separator={""}
+                      />
+                      {"- "}
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={2021}
+                        separator={""}
+                      />
+                    </i>
+                  </h3>
+                  <h4 className={styles.timeline_title}>
+                    Master in Computer Science
+                  </h4>
+                  <p className={styles.timeline_text}>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis obcaecati delectus magni, odit facere, consequuntur
+                    suscipit iste sunt dicta tenetur minima, amet aspernatur
+                    praesentium eos pariatur earum quae id fugiat.
+                  </p>
+                </div>
+
+                <div className={styles.timeline_item}>
+                  <div className={styles.circle_dot}></div>
+                  <h3 className={styles.timeline_date}>
+                    <i className={styles.fa}>
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={1999}
+                        separator={""}
+                      />
+                      {"- "}
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={2021}
+                        separator={""}
+                      />
+                    </i>
+                  </h3>
+                  <h4 className={styles.timeline_title}>
+                    Master in Computer Science
+                  </h4>
+                  <p className={styles.timeline_text}>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis obcaecati delectus magni, odit facere, consequuntur
+                    suscipit iste sunt dicta tenetur minima, amet aspernatur
+                    praesentium eos pariatur earum quae id fugiat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.experience}>
+          <h1 className={styles.experienceTitle}>Experience</h1>
+          <div className={styles.row}>
+            <div className={styles.timelineBox}>
+              <div className={styles.timeline}>
+                <div className={styles.timeline_item}>
+                  <div className={styles.circle_dot}></div>
+                  <h3 className={styles.timeline_date}>
+                    <i className={styles.fa}>
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={1999}
+                        separator={""}
+                      />
+                      {"- "}
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={2021}
+                        separator={""}
+                      />
+                    </i>
+                  </h3>
+                  <h4 className={styles.timeline_title}>
+                    Master in Computer Science
+                  </h4>
+                  <p className={styles.timeline_text}>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis obcaecati delectus magni, odit facere, consequuntur
+                    suscipit iste sunt dicta tenetur minima, amet aspernatur
+                    praesentium eos pariatur earum quae id fugiat.
+                  </p>
+                </div>
+
+                <div className={styles.timeline_item}>
+                  <div className={styles.circle_dot}></div>
+                  <h3 className={styles.timeline_date}>
+                    <i className={styles.fa}>
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={1999}
+                        separator={""}
+                      />
+                      {"- "}
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={2021}
+                        separator={""}
+                      />
+                    </i>
+                  </h3>
+                  <h4 className={styles.timeline_title}>
+                    Master in Computer Science
+                  </h4>
+                  <p className={styles.timeline_text}>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis obcaecati delectus magni, odit facere, consequuntur
+                    suscipit iste sunt dicta tenetur minima, amet aspernatur
+                    praesentium eos pariatur earum quae id fugiat.
+                  </p>
+                </div>
+
+                <div className={styles.timeline_item}>
+                  <div className={styles.circle_dot}></div>
+                  <h3 className={styles.timeline_date}>
+                    <i className={styles.fa}>
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={1999}
+                        separator={""}
+                      />
+                      {"- "}
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={2021}
+                        separator={""}
+                      />
+                    </i>
+                  </h3>
+                  <h4 className={styles.timeline_title}>
+                    Master in Computer Science
+                  </h4>
+                  <p className={styles.timeline_text}>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis obcaecati delectus magni, odit facere, consequuntur
+                    suscipit iste sunt dicta tenetur minima, amet aspernatur
+                    praesentium eos pariatur earum quae id fugiat.
+                  </p>
+                </div>
+
+                <div className={styles.timeline_item}>
+                  <div className={styles.circle_dot}></div>
+                  <h3 className={styles.timeline_date}>
+                    <i className={styles.fa}>
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={1999}
+                        separator={""}
+                      />
+                      {"- "}
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={2021}
+                        separator={""}
+                      />
+                    </i>
+                  </h3>
+                  <h4 className={styles.timeline_title}>
+                    Master in Computer Science
+                  </h4>
+                  <p className={styles.timeline_text}>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quis obcaecati delectus magni, odit facere, consequuntur
+                    suscipit iste sunt dicta tenetur minima, amet aspernatur
+                    praesentium eos pariatur earum quae id fugiat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
