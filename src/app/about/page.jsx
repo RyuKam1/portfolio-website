@@ -26,8 +26,8 @@ function About() {
             empower us, inspire or discourage us. In a world where the most
             sensational and surface-level stories often win, we’re building a
             system that rewards depth, nuance, and time well spent. A space for
-            thoughtful conversation more than drive-by takes, and substance over
-            packaging.
+            thoughtful conversation more than drive-by takes, and substance
+            over.
           </p>
         </div>
         {/* id="css"
