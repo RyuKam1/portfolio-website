@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.titleContainer}>
         <h1 className={styles.title}>
-          Hello! I'm
+          Hello! I&apos;m
           <div
             className={styles.nameContainer}
             onMouseOver={handleMouseOver}
@@ -57,7 +57,7 @@ export default function Home() {
           />
         </span>
         <span className={styles.desc}>
-          I am Developer and Electrical Engineer with 2+ years of experience.{" "}
+          I am Developer and Electrical Engineer with 2+ years of experience.
           <br /> My experience contains Web Development(HTML, CSS, Javascript,
           React.js, Next.js),
           <br /> Software Development(Python), <br /> Unreal Engine Game
@@ -69,7 +69,7 @@ export default function Home() {
       </div>
       <div className={styles.imageContainer}>
         <Image
-          src={`/coolerMe.jpg`}
+          src={"/coolerMe.jpg"}
           alt="me"
           fill={true}
           className={styles.img}
