@@ -61,7 +61,7 @@
   width: 500px;
   height: 550px;
   position: relative;
-  transition: ease-out 0.5s;
+  transition: ease 0.5s;
 }
 
 .img {
@@ -81,20 +81,26 @@
   bottom: -50px;
   border-radius: 5px;
   border-color: #9b9b9b;
-  transition: ease-out 0.5s;
+  transition: ease 0.5s;
 }
 .imageContainer:hover {
   box-shadow: 0px 0px 165px -50px rgba(255, 255, 255, 0.59);
   -moz-box-shadow: 0px 0px 165px -50px rgba(255, 255, 255, 0.59);
   box-shadow: 0px 0px 165px -50px rgba(255, 255, 255, 0.59);
+
+  transform: scale(1.05);
 }
 
 .imageContainer:hover::after {
   border-color: white;
+  right: -65px;
+  bottom: -70px;
 }
 
 .imageContainer:hover::before {
   border-color: white;
+  right: 480px;
+  bottom: 520px;
 }
 
 .imageContainer::before {
