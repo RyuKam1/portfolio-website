@@ -20,7 +20,7 @@ function Navbar() {
     {
       id: 3,
       title: "Services",
-      url: "/services",
+      url: "/myServices",
     },
     {
       id: 4,
