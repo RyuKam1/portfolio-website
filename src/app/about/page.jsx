@@ -18,7 +18,7 @@ function About() {
             world—without building a mailing list or a following first. The
             internet is noisy and chaotic; YuBlog is quiet yet full of insight.
             It’s simple, beautiful, collaborative, and helps you find the right
-            audience for whatever you have to say.
+            audience for whatever you have to.
           </p>
           <br />
           <p className={styles.storyText}>
