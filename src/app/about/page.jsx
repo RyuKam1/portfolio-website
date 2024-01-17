@@ -1,13 +1,15 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import styles from "./about.module.css";
 import ProgressBar from "@/components/progressBar/ProgressBar";
 import CountUp from "react-countup";
+import Background from "@/components/background/Background";
 
 function About() {
   return (
-    <div>
+    <div className={styles.mainContainer}>
+      <Background></Background>
       <div className={styles.container}>
         <div className={styles.aboutContainer}>
           <h1 className={styles.title}>About Me.</h1>

@@ -45,7 +45,6 @@ function Navbar() {
 
   return (
     <div className={styles.container}>
-      {" "}
       <div
         className={styles.logoContainer}
         onMouseOver={handleMouseOver}

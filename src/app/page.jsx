@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { useState } from "react";
 import Typed from "react-typed";
+import Background from "@/components/background/Background";
 
 export default function Home() {
   const [isHovering, setIsHovering] = useState(false);
@@ -17,6 +18,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
+      <Background></Background>
       <div className={styles.titleContainer}>
         <h1 className={styles.title}>
           Hello! I&apos;m
