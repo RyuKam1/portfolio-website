@@ -30,28 +30,29 @@ function Background() {
 
   const options = useMemo(() => ({
     background: {
-      color: "#000",
+      color: "transparent",
       repeat: "no-repeat",
       size: "40%",
       position: "60% 50%",
     },
     interactivity: {
+      detect_on: "canvas",
       events: {
         onClick: {
           enable: false,
           mode: "repulse",
         },
         onHover: {
-          enable: false,
+          enable: true,
           mode: "bubble",
         },
       },
       modes: {
         bubble: {
-          distance: 200,
+          distance: 100,
           duration: 2,
           opacity: 0,
-          size: 0,
+          size: 3,
           speed: 5,
         },
         repulse: {

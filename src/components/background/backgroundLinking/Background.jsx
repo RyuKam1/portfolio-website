@@ -37,14 +37,15 @@ function BackgroundLinking() {
       },
       fpsLimit: 120,
       interactivity: {
+        detect_on: "canvas",
         events: {
           onClick: {
             enable: false,
             mode: "push",
           },
           onHover: {
-            enable: false,
-            mode: "repulse",
+            enable: true,
+            mode: "bubble",
           },
         },
         modes: {
@@ -54,6 +55,13 @@ function BackgroundLinking() {
           repulse: {
             distance: 200,
             duration: 0.4,
+          },
+          bubble: {
+            distance: 100,
+            duration: 2,
+            opacity: 5,
+            size: 6,
+            speed: 5,
           },
         },
       },

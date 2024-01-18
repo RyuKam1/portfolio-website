@@ -54,6 +54,7 @@ export default function Home() {
           className={styles.img}
         ></Image>
       </div>
+      <script src="@/components/background/interactiveMouse/mouse.js"></script>
     </main>
   );
 }
