@@ -40,7 +40,7 @@ function Background() {
       events: {
         onClick: {
           enable: false,
-          mode: "repulse",
+          mode: "bubble",
         },
         onHover: {
           enable: true,
