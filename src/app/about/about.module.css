@@ -2,8 +2,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap");
 
 .aboutContainer {
+  position: relative;
   width: 680px;
   margin-top: 80px;
+}
+
+.aboutContainer,
+.infoContainer,
+.skillContainer,
+.exp_eduContainer {
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 
 .container {

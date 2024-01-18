@@ -1,13 +1,15 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import styles from "./about.module.css";
 import ProgressBar from "@/components/progressBar/ProgressBar";
 import CountUp from "react-countup";
+import Background from "@/components/background/Background";
 
 function About() {
   return (
-    <div>
+    <div className={styles.mainContainer}>
+      <Background></Background>
       <div className={styles.container}>
         <div className={styles.aboutContainer}>
           <h1 className={styles.title}>About Me.</h1>
@@ -18,7 +20,7 @@ function About() {
             world—without building a mailing list or a following first. The
             internet is noisy and chaotic; YuBlog is quiet yet full of insight.
             It’s simple, beautiful, collaborative, and helps you find the right
-            audience for whatever you have to say.
+            audience for whatever you have to.
           </p>
           <br />
           <p className={styles.storyText}>
@@ -26,8 +28,7 @@ function About() {
             empower us, inspire or discourage us. In a world where the most
             sensational and surface-level stories often win, we’re building a
             system that rewards depth, nuance, and time well spent. A space for
-            thoughtful conversation more than drive-by takes, and substance over
-            packaging.
+            thoughtful conversation more drive-by takes, and over.
           </p>
         </div>
         {/* id="css"
