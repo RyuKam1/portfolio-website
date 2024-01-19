@@ -28,6 +28,14 @@
 
 .icon {
   cursor: pointer;
+  filter: invert();
+  opacity: 0.5;
+  transition: ease 0.3s;
+}
+
+.icon:hover {
+  opacity: 1;
+  transform: scale(1.025);
 }
 
 .footerText {
