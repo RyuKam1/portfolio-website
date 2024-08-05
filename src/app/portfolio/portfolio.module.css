@@ -61,4 +61,77 @@
 .row {
   display: flex;
   justify-content: space-between;
+  visibility: visible;
+  transition: all 0.5s ease;
+}
+.certiButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.certiButton {
+  /* padding: 20px 0px; */
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 550;
+  transition: all 0.5s ease;
+  transition: 0.3s ease;
+  margin: 20px;
+}
+
+.certiButton:hover {
+  box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
+}
+.McertiContainer {
+  position: relative;
+  display: flex;
+}
+.certiContainer {
+  visibility: hidden;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 520px;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: transparent;
+  border-radius: 10px;
+  border-width: 0;
+
+  z-index: 2;
+  transition: all 0.5s ease;
+}
+
+.closeButton {
+  position: absolute;
+  top: 0%;
+  right: 18%;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  text-shadow: 0 0 10px;
+  font-size: 40px;
 }

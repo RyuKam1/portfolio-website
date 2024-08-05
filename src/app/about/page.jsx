@@ -15,21 +15,20 @@ function About() {
           <h1 className={styles.title}>About Me.</h1>
 
           <p className={styles.storyText}>
-            YuBlog is a home for human stories and ideas. Here, anyone can share
-            insightful perspectives, useful knowledge, and life wisdom with the
-            world—without building a mailing list or a following first. The
-            internet is noisy and chaotic; YuBlog is quiet yet full of insight.
-            It’s simple, beautiful, collaborative, and helps you find the right
-            audience for whatever you have to.
+            I&aposve always had passion and love towards modern technologies,
+            which led me to learn more about it and create my own projects. With
+            more than 4 years of experience in Web Development, Software
+            Development, Electrical engineering and game development, I am still
+            following my path to beconing great developer
           </p>
-          <br />
+          {/* <br />
           <p className={styles.storyText}>
             We believe that what you read and write matters. Words can divide or
             empower us, inspire or discourage us. In a world where the most
             sensational and surface-level stories often win, we’re building a
             system that rewards depth, nuance, and time well spent. A space for
             thoughtful conversation more drive-by takes, and over.
-          </p>
+          </p> */}
         </div>
         {/* id="css"
             value="81" 62 57 74 37
@@ -39,9 +38,9 @@ function About() {
           <ProgressBar progress={81}></ProgressBar>
           <p>Javascript</p>
           <ProgressBar progress={62}></ProgressBar>
-          <p>c++</p>
+          <p>C++</p>
           <ProgressBar progress={57}></ProgressBar>
-          <p>react</p>
+          <p>React.js</p>
           <ProgressBar progress={74}></ProgressBar>
           <p>Unreal Engine</p>
           <ProgressBar progress={37}></ProgressBar>
@@ -60,14 +59,6 @@ function About() {
           <p>17</p>
         </div>
         <div className={styles.info}>
-          <h3>Degree:</h3>
-          <p>Web Development</p>
-        </div>
-        <div className={styles.info}>
-          <h3>Website:</h3>
-          <p>MyWebsite.com</p>
-        </div>
-        <div className={styles.info}>
           <h3>Email:</h3>
           <p>omarashvili.giorgi07@gmail.com</p>
         </div>
@@ -84,8 +75,13 @@ function About() {
           <p>Georgia</p>
         </div>
 
-        <button className={styles.btn}>Download CV</button>
-        <button className={styles.btn}>Hire Me</button>
+        <a
+          href="CV_Giorgi_Omarashvili.pdf"
+          download="CV_Giorgi_Omarashvili.pdf"
+        >
+          <button className={styles.btn}>Download CV</button>
+        </a>
+        <button className={styles.btn}>Contact Me</button>
       </div>
       <div className={styles.exp_eduContainer}>
         <div className={styles.education}>
@@ -101,26 +97,22 @@ function About() {
                       <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={1999}
-                        separator={""}
-                      />
-                      {"- "}
-                      <CountUp
-                        className={styles.fa}
-                        duration={4}
-                        end={2021}
+                        end={2020}
                         separator={""}
                       />
                     </i>
                   </h3>
                   <h4 className={styles.timeline_title}>
-                    Master in Computer Science
+                    Started learning Game Development
                   </h4>
                   <p className={styles.timeline_text}>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Quis obcaecati delectus magni, odit facere, consequuntur
-                    suscipit iste sunt dicta tenetur minima, amet aspernatur
-                    praesentium eos pariatur earum quae id fugiat.
+                    Everything started with this. I started to learn Game
+                    Development with Unreal Engine 4 and succesfully finished it
+                    with a certificate. <br />
+                    During that classes, I learned basics of Unreal engine and
+                    Game Development itself. <br />
+                    By the end of the classes I made a fully working videogame
+                    with my team in 2 weeks.
                   </p>
                 </div>
 
@@ -131,26 +123,19 @@ function About() {
                       <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={1999}
-                        separator={""}
-                      />
-                      {"- "}
-                      <CountUp
-                        className={styles.fa}
-                        duration={4}
                         end={2021}
                         separator={""}
                       />
                     </i>
                   </h3>
                   <h4 className={styles.timeline_title}>
-                    Master in Computer Science
+                    First encounter with coding (Python)
                   </h4>
                   <p className={styles.timeline_text}>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Quis obcaecati delectus magni, odit facere, consequuntur
-                    suscipit iste sunt dicta tenetur minima, amet aspernatur
-                    praesentium eos pariatur earum quae id fugiat.
+                    In school i started attending python courses and
+                    successfully finished it with a certificate. <br /> I
+                    learned basic functions, algorithm and data analysis
+                    methods.
                   </p>
                 </div>
 
@@ -161,26 +146,19 @@ function About() {
                       <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={1999}
-                        separator={""}
-                      />
-                      {"- "}
-                      <CountUp
-                        className={styles.fa}
-                        duration={4}
                         end={2021}
                         separator={""}
                       />
                     </i>
                   </h3>
                   <h4 className={styles.timeline_title}>
-                    Master in Computer Science
+                    Started learning Electrical Engineering
                   </h4>
                   <p className={styles.timeline_text}>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Quis obcaecati delectus magni, odit facere, consequuntur
-                    suscipit iste sunt dicta tenetur minima, amet aspernatur
-                    praesentium eos pariatur earum quae id fugiat.
+                    I started learning about electrical engineerig and basic
+                    circuits, which is controlled by arduino board. <br />I
+                    learned basics of electrical circuits and how to program
+                    Arduino board using c++.
                   </p>
                 </div>
 
@@ -191,26 +169,20 @@ function About() {
                       <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={1999}
-                        separator={""}
-                      />
-                      {"- "}
-                      <CountUp
-                        className={styles.fa}
-                        duration={4}
-                        end={2021}
+                        end={2023}
                         separator={""}
                       />
                     </i>
                   </h3>
-                  <h4 className={styles.timeline_title}>
-                    Master in Computer Science
-                  </h4>
+                  <h4 className={styles.timeline_title}>Code IT 2023</h4>
                   <p className={styles.timeline_text}>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Quis obcaecati delectus magni, odit facere, consequuntur
-                    suscipit iste sunt dicta tenetur minima, amet aspernatur
-                    praesentium eos pariatur earum quae id fugiat.
+                    I started learning full Front-End Development basis during
+                    Code IT. The Entire Code IT project was split into three
+                    segments for three months. For first segment I got to learn
+                    HTML&CSS, for second I learned Javascript and for third
+                    segment I learned React.js-Next.js Development. For final
+                    days I&aposve made fully working website using all of the
+                    things i learned during the classes.
                   </p>
                 </div>
               </div>
@@ -319,26 +291,20 @@ function About() {
                       <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={1999}
-                        separator={""}
-                      />
-                      {"- "}
-                      <CountUp
-                        className={styles.fa}
-                        duration={4}
-                        end={2021}
+                        end={2023}
                         separator={""}
                       />
                     </i>
                   </h3>
-                  <h4 className={styles.timeline_title}>
-                    Master in Computer Science
-                  </h4>
+                  <h4 className={styles.timeline_title}>Code IT 2023</h4>
                   <p className={styles.timeline_text}>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Quis obcaecati delectus magni, odit facere, consequuntur
-                    suscipit iste sunt dicta tenetur minima, amet aspernatur
-                    praesentium eos pariatur earum quae id fugiat.
+                    I started learning full Front-End Development basis during
+                    Code It. The Entire Code IT project was split into three
+                    segments for three months. For first segment I got to learn
+                    HTML&CSS, for second I learned Javascript and for third
+                    segment I learned React.js-Next.js Development. For final
+                    days I&aposve made fully working website using all of the
+                    things i learned during the classes.
                   </p>
                 </div>
               </div>
