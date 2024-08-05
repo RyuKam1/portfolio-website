@@ -7,7 +7,6 @@ function InteractiveText() {
   const handleMouseOver = () => {
     setIsHovering(true);
   };
-
   const handleMouseOut = () => {
     setIsHovering(false);
   };

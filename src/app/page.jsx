@@ -5,6 +5,7 @@ import { useState } from "react";
 import Typed from "react-typed";
 import Background from "@/components/background/Background";
 import InteractiveText from "@/components/interactiveText/interactiveText";
+import { getElement } from "@syncfusion/ej2-react-progressbar";
 
 export default function Home() {
   return (
@@ -25,9 +26,8 @@ export default function Home() {
               "React Developer",
               "Python Developer",
               "Software Engineer",
-              "Arduino Programmer",
               "Electric Engineer",
-              "Unreal Engine Developer",
+              "Game Developer",
               "Android Developer",
             ]}
             typeSpeed={50}
@@ -37,18 +37,22 @@ export default function Home() {
         </span>
         <span className={styles.desc}>
           I am Developer and Electrical Engineer with 2+ years of experience.
-          <br /> My experience contains Web Development(HTML, CSS, Javascript,
-          React.js, Next.js),
-          <br /> Software Development(Python), <br /> Unreal Engine Game
-          Developing (with some unity experience too), <br />
-          Arduino/raspberryPI Electrical Engineering and <br />
-          Android Developer
+          <br /> My experience contains: <br />
+          <span className={styles.experienceText}>
+            Web Development (HTML, CSS, Javascript, React.js, Next.js)
+            <br /> Software Development (Python, C++) <br />
+            Game Development (Unreal Engine, Unity) <br />
+            Electrical Engineering & Arduino, raspberryPI and ESP32 <br />
+            Android Development
+          </span>
         </span>
-        <button className={styles.btn}>Hire Me</button>
+        <a href="/about">
+          <button className={styles.btn}>About Me</button>
+        </a>
       </div>
       <div className={styles.imageContainer}>
         <Image
-          src={"/coolerMe.jpg"}
+          src={"/another_me.jpeg"}
           alt="me"
           fill={true}
           className={styles.img}
