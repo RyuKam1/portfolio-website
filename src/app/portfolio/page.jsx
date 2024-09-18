@@ -47,32 +47,44 @@ function page() {
           style={{
             opacity: showRow ? "100" : "0",
             visibility: showRow ? "visible" : "hidden",
-            width: showRow ? "100%" : "200%",
-            translate: showRow ? "0%" : "-20%",
           }}
         >
-          <div className={styles.portfolioItem}>
+          <div
+            className={styles.portfolioItem}
+            style={{
+              translate: showRow ? "0%" : "-150%",
+            }}
+          >
             <div className={styles.portfolioItemInner}>
               <div className={styles.portfolioImg}>
-                <Image
-                  className={styles.img}
-                  src={"/website1.png"}
-                  alt="website1"
-                  fill={true}
-                ></Image>
+                <a href="https://www.beetkar.online" target="_blank">
+                  <Image
+                    className={styles.img}
+                    src={"/beetkar.png"}
+                    alt="website1"
+                    fill={true}
+                  ></Image>
+                </a>
               </div>
             </div>
           </div>
 
-          <div className={styles.portfolioItem}>
+          <div
+            className={styles.portfolioItem}
+            style={{
+              translate: showRow ? "0%" : "150%",
+            }}
+          >
             <div className={styles.portfolioItemInner}>
               <div className={styles.portfolioImg}>
-                <Image
-                  className={styles.img}
-                  src={"/website2.png"}
-                  alt="website1"
-                  fill={true}
-                ></Image>
+                <a href="https://final-app-five.vercel.app" target="_blank/">
+                  <Image
+                    className={styles.img}
+                    src={"/website2.png"}
+                    alt="website1"
+                    fill={true}
+                  ></Image>
+                </a>
               </div>
             </div>
           </div>
