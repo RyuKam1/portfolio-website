@@ -38,6 +38,7 @@
   flex: 0 0 33.33%;
   max-width: 50.33%;
   margin-bottom: 30px;
+  transition: ease, 1s;
 }
 
 .portfolioItemInner {

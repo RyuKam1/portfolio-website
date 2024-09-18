@@ -15,7 +15,7 @@ function About() {
           <h1 className={styles.title}>About Me.</h1>
 
           <p className={styles.storyText}>
-            I&aposve always had passion and love towards modern technologies,
+            I&apos;ve always had passion and love towards modern technologies,
             which led me to learn more about it and create my own projects. With
             more than 4 years of experience in Web Development, Software
             Development, Electrical engineering and game development, I am still
@@ -181,7 +181,7 @@ function About() {
                     segments for three months. For first segment I got to learn
                     HTML&CSS, for second I learned Javascript and for third
                     segment I learned React.js-Next.js Development. For final
-                    days I&aposve made fully working website using all of the
+                    days I&apos;ve made fully working website using all of the
                     things i learned during the classes.
                   </p>
                 </div>
@@ -303,7 +303,7 @@ function About() {
                     segments for three months. For first segment I got to learn
                     HTML&CSS, for second I learned Javascript and for third
                     segment I learned React.js-Next.js Development. For final
-                    days I&aposve made fully working website using all of the
+                    days I&apos;ve made fully working website using all of the
                     things i learned during the classes.
                   </p>
                 </div>
