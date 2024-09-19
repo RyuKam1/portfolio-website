@@ -169,7 +169,7 @@ function About() {
                       <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={2023}
+                        end={2024}
                         separator={""}
                       />
                     </i>
@@ -183,6 +183,30 @@ function About() {
                     segment I learned React.js-Next.js Development. For final
                     days I&apos;ve made fully working website using all of the
                     things i learned during the classes.
+                  </p>
+                </div>
+
+                <div className={styles.timeline_item}>
+                  <div className={styles.circle_dot}></div>
+                  <h3 className={styles.timeline_date}>
+                    <i className={styles.fa}>
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={2023}
+                        separator={""}
+                      />
+                      {"- "}
+                    </i>
+                  </h3>
+                  <h4 className={styles.timeline_title}>
+                    Started Learning at ALTE University
+                  </h4>
+                  <p className={styles.timeline_text}>
+                    I started learning at ALTE University, where I am Learning
+                    Computer Science. I will continue to learn more and more
+                    about technologies and computer science, in order to become
+                    the great developer.
                   </p>
                 </div>
               </div>
@@ -201,26 +225,30 @@ function About() {
                       <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={1999}
+                        end={2022}
                         separator={""}
                       />
                       {"- "}
                       <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={2021}
+                        end={2024}
                         separator={""}
                       />
                     </i>
                   </h3>
                   <h4 className={styles.timeline_title}>
-                    Master in Computer Science
+                    Apprenticeship in GITA "Akhmeta Tech Park"
                   </h4>
                   <p className={styles.timeline_text}>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Quis obcaecati delectus magni, odit facere, consequuntur
-                    suscipit iste sunt dicta tenetur minima, amet aspernatur
-                    praesentium eos pariatur earum quae id fugiat.
+                    I started Apprenticeship in Akhmeta Tech Park, which is
+                    funded by GITA. Since that 2 years, I&apos;ve been studying
+                    and aswell working in that place at the same time. While I
+                    was there, I got to work with Various parts of tech industry
+                    such as Web Development(HTML, CSS, Javascript, Node.js,
+                    React,), Electrical Engineering(Arduino, Raspberry PI,
+                    Teensy, Caliope), Software Development(Python, C++. c#),
+                    UI/UX Design and I&apos;ve gained experience in them.
                   </p>
                 </div>
 
@@ -231,30 +259,31 @@ function About() {
                       <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={1999}
+                        end={2024}
                         separator={""}
                       />
                       {"- "}
-                      <CountUp
+                      {/* <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={2021}
+                        end={0}
                         separator={""}
-                      />
+                      /> */}
                     </i>
                   </h3>
-                  <h4 className={styles.timeline_title}>
-                    Master in Computer Science
-                  </h4>
+                  <h4 className={styles.timeline_title}>Beetkar</h4>
                   <p className={styles.timeline_text}>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Quis obcaecati delectus magni, odit facere, consequuntur
-                    suscipit iste sunt dicta tenetur minima, amet aspernatur
-                    praesentium eos pariatur earum quae id fugiat.
+                    Beetkar is the Company, which was founded by me and my
+                    friends. It is an innovative piece of technology, that helps
+                    beekepers with their everyday life, gains information about
+                    bees and detects various deseases or mites. The project is
+                    still ongoing and I am working on creating software for the
+                    hardware and also creating and maintaining the official
+                    website.
                   </p>
                 </div>
 
-                <div className={styles.timeline_item}>
+                {/* <div className={styles.timeline_item}>
                   <div className={styles.circle_dot}></div>
                   <h3 className={styles.timeline_date}>
                     <i className={styles.fa}>
@@ -306,7 +335,7 @@ function About() {
                     days I&apos;ve made fully working website using all of the
                     things i learned during the classes.
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
