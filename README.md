@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Visit The [Website](https://portfolio-website-omega-ebon.vercel.app)
+Visit The [The Website](https://portfolio-website-omega-ebon.vercel.app)
 
 ## Getting Started
 
