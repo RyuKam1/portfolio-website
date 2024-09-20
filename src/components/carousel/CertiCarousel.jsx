@@ -36,6 +36,18 @@ function CertiCarousel() {
           <img src="/certi7.jpg" />
           <p className="legend">Python</p>
         </div>
+        <div>
+          <img src="/certi8.jpg" />
+          <p className="legend">Apprenticeship in GITA</p>
+        </div>
+        <div>
+          <img src="/certi9.jpg" />
+          <p className="legend">Akhmeta N2 Public School Innovator Award</p>
+        </div>
+        <div>
+          <img src="/certi10.jpg" />
+          <p className="legend">Startup Sprint 2023 Winner</p>
+        </div>
       </Carousel>
     </div>
   );

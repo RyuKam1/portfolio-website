@@ -274,7 +274,7 @@ function About() {
                   <h4 className={styles.timeline_title}>Beetkar</h4>
                   <p className={styles.timeline_text}>
                     Beetkar is the Company, which was founded by me and my
-                    friends. It is an innovative piece of technology, that helps
+                    friends. It is an innovative technology, that helps
                     beekepers with their everyday life, gains information about
                     bees and detects various deseases or mites. The project is
                     still ongoing and I am working on creating software for the

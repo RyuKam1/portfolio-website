@@ -30,17 +30,16 @@ function page() {
                       ></Image>
                     </div>
                   </div>
-                  <h4>HTML/CSS Development</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Officia, nihil maxime! Error qui, nulla, at adipisci dolorem
-                    vitae distinctio est laborum corrupti officia repudiandae
-                    non aliquam eveniet, accusantium voluptatem vero.
-                  </p>
+                  <h4>Web Development</h4>
+                  <p>HTML</p>
+                  <p>CSS</p>
+                  <p>Javascript</p>
+                  <p>React</p>
+                  <p>Node.js</p>
                 </div>
               </div>
 
-              <div className={styles.servicesItem}>
+              {/* <div className={styles.servicesItem}>
                 <div className={styles.servicesItemInner}>
                   <div className={styles.icon}>
                     <div className={styles.imgContainer}>
@@ -60,9 +59,9 @@ function page() {
                     non aliquam eveniet, accusantium voluptatem vero.
                   </p>
                 </div>
-              </div>
+              </div> */}
 
-              <div className={styles.servicesItem}>
+              {/* <div className={styles.servicesItem}>
                 <div className={styles.servicesItemInner}>
                   <div className={styles.icon}>
                     <div className={styles.imgContainer}>
@@ -82,7 +81,7 @@ function page() {
                     non aliquam eveniet, accusantium voluptatem vero.
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               <div className={styles.servicesItem}>
                 <div className={styles.servicesItemInner}>
@@ -97,12 +96,9 @@ function page() {
                     </div>
                   </div>
                   <h4>Software Development</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Officia, nihil maxime! Error qui, nulla, at adipisci dolorem
-                    vitae distinctio est laborum corrupti officia repudiandae
-                    non aliquam eveniet, accusantium voluptatem vero.
-                  </p>
+                  <p>Python</p>
+                  <p>C++</p>
+                  <p>C#</p>
                 </div>
               </div>
 
@@ -118,13 +114,12 @@ function page() {
                       ></Image>
                     </div>
                   </div>
-                  <h4>Arduino Programming</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Officia, nihil maxime! Error qui, nulla, at adipisci dolorem
-                    vitae distinctio est laborum corrupti officia repudiandae
-                    non aliquam eveniet, accusantium voluptatem vero.
-                  </p>
+                  <h4>Hardware Development</h4>
+                  <p>Arduino Uno</p>
+                  <p>Arduino Nano</p>
+                  <p>Arduino Mega</p>
+                  <p>Raspberry Pi 4</p>
+                  <p>ESP 32</p>
                 </div>
               </div>
 
@@ -141,12 +136,10 @@ function page() {
                     </div>
                   </div>
                   <h4>Electric Engineering</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Officia, nihil maxime! Error qui, nulla, at adipisci dolorem
-                    vitae distinctio est laborum corrupti officia repudiandae
-                    non aliquam eveniet, accusantium voluptatem vero.
-                  </p>
+                  <p>Basic Circuits</p>
+                  <p>Audio Systems</p>
+                  <p>Chip Controlled Systems</p>
+                  <p>Simple Logic Circuits</p>
                 </div>
               </div>
 
@@ -162,13 +155,10 @@ function page() {
                       ></Image>
                     </div>
                   </div>
-                  <h4>Unreal Engine Game Development</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Officia, nihil maxime! Error qui, nulla, at adipisci dolorem
-                    vitae distinctio est laborum corrupti officia repudiandae
-                    non aliquam eveniet, accusantium voluptatem vero.
-                  </p>
+                  <h4>Game Development</h4>
+                  <p>Unreal Engine 4</p>
+                  <p>Unreal Engine 5</p>
+                  <p>Unity</p>
                 </div>
               </div>
 
@@ -185,12 +175,7 @@ function page() {
                     </div>
                   </div>
                   <h4>Android Development</h4>
-                  <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Officia, nihil maxime! Error qui, nulla, at adipisci dolorem
-                    vitae distinctio est laborum corrupti officia repudiandae
-                    non aliquam eveniet, accusantium voluptatem vero.
-                  </p>
+                  <p>Android Studio</p>
                 </div>
               </div>
             </div>
