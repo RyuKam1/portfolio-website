@@ -81,7 +81,9 @@ function About() {
         >
           <button className={styles.btn}>Download CV</button>
         </a>
-        <button className={styles.btn}>Contact Me</button>
+        <a href="/contact">
+          <button className={styles.btn}>Contact Me</button>
+        </a>
       </div>
       <div className={styles.exp_eduContainer}>
         <div className={styles.education}>
@@ -275,9 +277,11 @@ function About() {
                     TapNgo is a Startup, created by me and my group of friends.
                     It is a Software, that can replace physical RFID Keys. By
                     using NFC capabilities of most of every smartphones in the
-                    world, TapNgo can Replicate the physical RFID Keys in hotels
-                    or many other places. I was responsible with prototyping and
-                    developing the working software for TapNgo.
+                    world, TapNgo can Replicate the physical RFID Keys, which
+                    can be used in hotels or many other places, so user doesn't
+                    have to worry about losing, or breaking the physical RFID
+                    Key. I was responsible with prototyping and developing the
+                    working software for TapNgo.
                   </p>
                 </div>
 
