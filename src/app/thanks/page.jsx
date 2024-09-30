@@ -32,9 +32,9 @@ const page = async ({ params, searchParams }) => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>
-        მადლობას გიხდით ჩვენთან თანამშრომლობისთვის! {"<3"}
-      </h1>
+      <h1 className={styles.title}>Thank You For Leaving A Message! {"<3"}</h1>
+      <br />
+      <p>I Will Reply As Soon As Possible</p>
     </div>
   );
 };

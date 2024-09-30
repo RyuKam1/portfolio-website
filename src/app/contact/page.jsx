@@ -47,7 +47,6 @@ function Contact() {
           <input
             type="tel"
             placeholder="Phone Number (optional)"
-            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
             onChange={(event) => setPhoneInput(event.target.value)}
           />
           <textarea
