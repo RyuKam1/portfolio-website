@@ -238,7 +238,7 @@ function About() {
                     </i>
                   </h3>
                   <h4 className={styles.timeline_title}>
-                    Apprenticeship in GITA "Akhmeta Tech Park"
+                    Apprenticeship in GITA &quot;Akhmeta Tech Park&quot;
                   </h4>
                   <p className={styles.timeline_text}>
                     I started Apprenticeship in Akhmeta Tech Park, which is

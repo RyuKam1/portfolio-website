@@ -118,7 +118,7 @@ function page() {
                   <p>Arduino Uno</p>
                   <p>Arduino Nano</p>
                   <p>Arduino Mega</p>
-                  <p>Raspberry Pi 4</p>
+                  <p>Raspberry Pi</p>
                   <p>ESP 32</p>
                 </div>
               </div>
