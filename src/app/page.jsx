@@ -36,7 +36,7 @@ export default function Home() {
           />
         </span>
         <span className={styles.desc}>
-          I am Developer and Electrical Engineer with 2+ years of experience.
+          I am Developer and Electrical Engineer with 4+ years of experience.
           <br /> My experience contains: <br />
           <span className={styles.experienceText}>
             Web Development (HTML, CSS, Javascript, React.js, Next.js)
