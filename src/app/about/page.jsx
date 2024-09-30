@@ -262,6 +262,35 @@ function About() {
                         end={2024}
                         separator={""}
                       />
+                      {/* <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={0}
+                        separator={""}
+                      /> */}
+                    </i>
+                  </h3>
+                  <h4 className={styles.timeline_title}>TapNgo</h4>
+                  <p className={styles.timeline_text}>
+                    TapNgo is a Startup, created by me and my group of friends.
+                    It is a Software, that can replace physical RFID Keys. By
+                    using NFC capabilities of most of every smartphones in the
+                    world, TapNgo can Replicate the physical RFID Keys in hotels
+                    or many other places. I was responsible with prototyping and
+                    developing the working software for TapNgo.
+                  </p>
+                </div>
+
+                <div className={styles.timeline_item}>
+                  <div className={styles.circle_dot}></div>
+                  <h3 className={styles.timeline_date}>
+                    <i className={styles.fa}>
+                      <CountUp
+                        className={styles.fa}
+                        duration={4}
+                        end={2024}
+                        separator={""}
+                      />
                       {"- "}
                       {/* <CountUp
                         className={styles.fa}
