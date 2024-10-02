@@ -171,7 +171,7 @@ function About() {
                       <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={2024}
+                        end={2023}
                         separator={""}
                       />
                     </i>
@@ -195,7 +195,7 @@ function About() {
                       <CountUp
                         className={styles.fa}
                         duration={4}
-                        end={2023}
+                        end={2024}
                         separator={""}
                       />
                       {"- "}
