@@ -2,6 +2,10 @@
   margin: 0 30vh;
 }
 
+.mainContainer {
+  height: 100vh;
+}
+
 .portfolioSection,
 .pageContainer,
 .sectionTitleContainer,
@@ -30,15 +34,17 @@
 }
 
 .img {
-  object-fit: contain;
+  object-fit: cover;
   display: block;
+  filter: brightness(80%);
+  transition: all 0.3s;
 }
 
 .portfolioItem {
   flex: 0 0 33.33%;
   max-width: 50.33%;
   margin-bottom: 30px;
-  transition: ease, 1s;
+  transition: all, 0.5s;
 }
 
 .portfolioItemInner {
@@ -46,7 +52,9 @@
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
-  transition: ease 0.5s;
+  transition: ease 0.3s;
+  backdrop-filter: blur(5px);
+  background-color: transparent;
 }
 
 .portfolioItemInner:hover {
@@ -55,6 +63,7 @@
 
 .portfolioItemInner:hover .portfolioImg {
   transform: scale(1.05);
+  filter: brightness(110%);
   /* width: 590px;
   height: 360px; */
 }
@@ -69,6 +78,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .certiButton {
   /* padding: 20px 0px; */
