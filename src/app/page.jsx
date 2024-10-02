@@ -15,7 +15,9 @@ export default function Home() {
         <h1 className={styles.title}>
           Hello! I&apos;m
           <div>
-            <InteractiveText></InteractiveText>
+            <InteractiveText
+              className={styles.interactiveName}
+            ></InteractiveText>
           </div>
         </h1>
         <span className={styles.proffesion}>
