@@ -210,3 +210,138 @@
   text-align: justify;
   color: white;
 }
+
+@media (max-width: 1850px) {
+  .container {
+    margin: 0 25vh;
+  }
+  .exp_eduContainer {
+    margin: 0 25vh;
+  }
+
+  .infoContainer {
+    grid-column-gap: 25%;
+  }
+}
+
+@media (max-width: 1750px) {
+  .container {
+    margin: 0 20vh;
+  }
+  .exp_eduContainer {
+    margin: 0 20vh;
+  }
+}
+
+@media (max-width: 1630px) {
+  .container {
+    margin: 0 15vh;
+  }
+  .exp_eduContainer {
+    margin: 0 15vh;
+  }
+}
+
+@media (max-width: 1500px) {
+  .container {
+    margin: 0 10vh;
+  }
+  .exp_eduContainer {
+    margin: 0 10vh;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutContainer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .storyText {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .skillContainer {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .exp_eduContainer {
+    margin: 0 3vh;
+  }
+  .educationTitle {
+    margin-left: 20px;
+  }
+  .row {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 920px) {
+  .infoContainer {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 30px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .row {
+    margin: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .exp_eduContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .row {
+    margin-left: 0;
+    width: 100%;
+  }
+  .education,
+  .experience {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .storyText {
+    text-align: center;
+  }
+  .aboutContainer {
+    width: 100%;
+  }
+  .container {
+    margin: 0 3vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .skillContainer {
+    width: 100%;
+  }
+
+  .skillContainer p,
+  .skillContainer p progress {
+    width: 100%;
+  }
+}
+
+@media (max-width: 415px) {
+  .info {
+    width: 100%;
+  }
+}

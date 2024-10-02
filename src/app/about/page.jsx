@@ -19,16 +19,8 @@ function About() {
             which led me to learn more about it and create my own projects. With
             more than 4 years of experience in Web Development, Software
             Development, Electrical engineering and game development, I am still
-            following my path to beconing great developer
+            following my path to becoming a great developer.
           </p>
-          {/* <br />
-          <p className={styles.storyText}>
-            We believe that what you read and write matters. Words can divide or
-            empower us, inspire or discourage us. In a world where the most
-            sensational and surface-level stories often win, we’re building a
-            system that rewards depth, nuance, and time well spent. A space for
-            thoughtful conversation more drive-by takes, and over.
-          </p> */}
         </div>
         {/* id="css"
             value="81" 62 57 74 37
