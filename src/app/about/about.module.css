@@ -70,6 +70,10 @@
   letter-spacing: 2px;
 }
 
+.progressBar {
+  width: 500px;
+}
+
 .skillContainer p progress {
   width: 500px;
   transition: 0.5s ease-in-out;
@@ -329,7 +333,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 570px) {
   .skillContainer {
     width: 100%;
   }
@@ -340,7 +344,7 @@
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 425px) {
   .info {
     width: 100%;
   }
