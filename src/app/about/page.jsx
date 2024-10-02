@@ -27,7 +27,10 @@ function About() {
             max="100" */}
         <div className={styles.skillContainer}>
           <p>CSS</p>
-          <ProgressBar progress={81}></ProgressBar>
+          <ProgressBar
+            className={styles.ProgressBar}
+            progress={81}
+          ></ProgressBar>
           <p>Javascript</p>
           <ProgressBar progress={62}></ProgressBar>
           <p>C++</p>
