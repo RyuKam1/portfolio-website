@@ -29,3 +29,64 @@
   font-size: 30px;
   transition: ease-in-out 0.5s;
 }
+
+/* Add media queries for responsiveness */
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin: 0 20vh;
+    height: 80px;
+  }
+  .links {
+    gap: 10px;
+    font-size: 16px;
+  }
+  .logo {
+    font-size: 24px;
+  }
+}
+
+/* For screens smaller than 768px (tablets and mobile devices) */
+@media only screen and (max-width: 960px) {
+  .container {
+    margin: 0 10vh;
+    height: 80px;
+  }
+  .links {
+    gap: 10px;
+    font-size: 14px;
+  }
+  .logo {
+    font-size: 24px;
+  }
+}
+
+/* For screens smaller than 480px (small mobile devices) */
+@media only screen and (max-width: 790px) {
+  .container {
+    margin: 0 5vh;
+    height: 80px;
+  }
+  .links {
+    gap: 5px;
+    font-size: 14px;
+  }
+  .logo {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .container {
+    margin: 0 5vh;
+    height: 80px;
+  }
+  .links {
+    gap: 5px;
+    font-size: 12px;
+    gap: 0px;
+  }
+  .logo {
+    font-size: 18px;
+  }
+}
