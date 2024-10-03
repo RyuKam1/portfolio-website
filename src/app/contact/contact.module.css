@@ -94,3 +94,15 @@
   color: black;
   background-color: white;
 }
+
+@media (max-width: 500px) {
+  .form {
+    width: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .form {
+    width: 200px;
+  }
+}
