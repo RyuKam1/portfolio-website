@@ -32,6 +32,6 @@
 @media only screen and (max-width: 400px) {
   .container {
     min-width: 30px;
-    padding: 2px;
+    padding: 3px;
   }
 }
