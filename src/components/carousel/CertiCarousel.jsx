@@ -7,7 +7,11 @@ import styles from "./certiCarousel.module.css";
 function CertiCarousel() {
   return (
     <div className={styles.container}>
-      <Carousel showThumbs={false} width={750} infiniteLoop={true}>
+      <Carousel
+        showThumbs={false}
+        infiniteLoop={true}
+        className={styles.carouselContainer}
+      >
         <div>
           <img src="/certi1.png" />
           <p className="legend">Nasa Space-Apps Challenge</p>

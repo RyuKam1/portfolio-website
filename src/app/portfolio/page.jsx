@@ -37,7 +37,7 @@ function page() {
             translate: showRow ? "0% 20%" : "0% 0%",
           }}
         >
-          <Certificates />
+          <Certificates className={styles.certificates} />
           <button className={styles.closeButton} onClick={toggle}>
             X
           </button>
