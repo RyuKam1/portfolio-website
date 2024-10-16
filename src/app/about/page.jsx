@@ -19,7 +19,7 @@ function About() {
             which led me to learn more about it and create my own projects. With
             more than 4 years of experience in Web Development, Software
             Development, Electrical engineering and game development, I am still
-            following my path to becoming a great developer.
+            following my path towards becoming a great developer.
           </p>
         </div>
         {/* id="css"
@@ -63,7 +63,7 @@ function About() {
         </div>
         <div className={styles.info}>
           <h3>City:</h3>
-          <p>Akhmeta</p>
+          <p>Tbilisi</p>
         </div>
         <div className={styles.info}>
           <h3>Country:</h3>
@@ -106,10 +106,10 @@ function About() {
                     Everything started with this. I started to learn Game
                     Development with Unreal Engine 4 and succesfully finished it
                     with a certificate. <br />
-                    During that classes, I learned basics of Unreal engine and
+                    During those classes, I learned basics of Unreal engine and
                     Game Development itself. <br />
-                    By the end of the classes I made a fully working videogame
-                    with my team in 2 weeks.
+                    By the end of the classes, I had succesfully made a fully
+                    working videogame, with my team within 2 weeks.
                   </p>
                 </div>
 
@@ -129,10 +129,10 @@ function About() {
                     First encounter with coding (Python)
                   </h4>
                   <p className={styles.timeline_text}>
-                    In school i started attending python courses and
-                    successfully finished it with a certificate. <br /> I
-                    learned basic functions, algorithm and data analysis
-                    methods.
+                    While i was still In school i started attending python
+                    courses and successfully finished it with a certificate.{" "}
+                    <br /> I learned basic functions, algorithms and data
+                    analysis methods.
                   </p>
                 </div>
 
@@ -177,9 +177,9 @@ function About() {
                     Code IT. The Entire Code IT project was split into three
                     segments for three months. For first segment I got to learn
                     HTML&CSS, for second I learned Javascript and for third
-                    segment I learned React.js-Next.js Development. For final
-                    days I&apos;ve made fully working website using all of the
-                    things i learned during the classes.
+                    segment I learned React.js-Next.js Development. As for final
+                    project, I&apos;ve made fully working website using all of
+                    the things i had learned during the classes.
                   </p>
                 </div>
 
@@ -203,7 +203,7 @@ function About() {
                     I started learning at ALTE University, where I am Learning
                     Computer Science. I will continue to learn more and more
                     about technologies and computer science, in order to become
-                    the great developer.
+                    a great developer.
                   </p>
                 </div>
               </div>
@@ -239,8 +239,8 @@ function About() {
                   </h4>
                   <p className={styles.timeline_text}>
                     I started Apprenticeship in Akhmeta Tech Park, which is
-                    funded by GITA. Since that 2 years, I&apos;ve been studying
-                    and aswell working in that place at the same time. While I
+                    funded by GITA. During those 2 years, I&apos;ve been
+                    studying and working in that place at the same time. While I
                     was there, I got to work with Various parts of tech industry
                     such as Web Development(HTML, CSS, Javascript, Node.js,
                     React,), Electrical Engineering(Arduino, Raspberry PI,

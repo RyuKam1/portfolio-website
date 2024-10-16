@@ -6,6 +6,7 @@ import Typed from "react-typed";
 import Background from "@/components/background/Background";
 import InteractiveText from "@/components/interactiveText/interactiveText";
 import { getElement } from "@syncfusion/ej2-react-progressbar";
+import TiltImage from "@/components/tiltingImage/tiltingImage";
 
 export default function Home() {
   return (
@@ -24,13 +25,13 @@ export default function Home() {
           And I Am
           <Typed
             strings={[
-              "Web Developer",
-              "React Developer",
-              "Python Developer",
-              "Software Engineer",
-              "Electric Engineer",
-              "Game Developer",
-              "Android Developer",
+              "a Web Developer",
+              "a React Developer",
+              "a Python Developer",
+              "a Software Engineer",
+              "an Electric Engineer",
+              "a Game Developer",
+              "an Android Developer",
             ]}
             typeSpeed={50}
             loop={true}
@@ -38,7 +39,7 @@ export default function Home() {
           />
         </span>
         <span className={styles.desc}>
-          I am Developer and Electrical Engineer with 4+ years of experience.
+          I am a Developer and Electrical Engineer with 4+ years of experience.
           <br /> My experience contains: <br />
           <span className={styles.experienceText}>
             Web Development (HTML, CSS, Javascript, React.js, Next.js)
@@ -48,17 +49,16 @@ export default function Home() {
             Android Development
           </span>
         </span>
-        <a href="/about">
+        <a href="/about" className={styles.btnContaner}>
           <button className={styles.btn}>About Me</button>
         </a>
       </div>
       <div className={styles.imageContainer}>
-        <Image
+        <TiltImage
           src={"/another_me.jpeg"}
           alt="me"
-          fill={true}
-          className={styles.img}
-        ></Image>
+          className={styles.img} // Use the same class for styling
+        />
       </div>
     </main>
   );

@@ -12,10 +12,10 @@ const page = async ({ params, searchParams }) => {
 
   try {
     const response = await resend.emails.send({
-      from: "Portfolio Feedback <beetkar@beetkar.online>",
+      from: "Portfolio Feedback <NotGiorgi@beetkar.online>",
       to: "omarashvili.giorgi07@gmail.com",
       subject: "New Contact!",
-      name: "Beetkar",
+      name: "NotGiorgi",
       html: `<h1>New Contact!</h1><p>Name: ${searchParams.name} <br/> Email: ${searchParams.email} <br/> Phone: ${searchParams.phone} <br/> Message: ${searchParams.message} <br/></p>`,
     });
 
