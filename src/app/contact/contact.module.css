@@ -73,7 +73,7 @@
 .form textarea {
   max-width: 500px;
 }
-.form button {
+.inactiveBtn {
   padding: 20px;
   background-color: black;
   color: white;
@@ -85,7 +85,33 @@
   transition: all 0.3s;
 }
 
-.form button:hover {
+.inactiveBtn:active {
+  background-color: rgb(85, 22, 22);
+  transform: translateY(5px);
+}
+
+.inactiveBtn:hover {
+  box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
+
+  /* transform: translateY(-3px);
+  color: black;
+  background-color: white; */
+}
+
+.activeBtn {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.activeBtn:hover {
   box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
   -moz-box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);
   box-shadow: 0px 0px 20px -2px rgba(255, 255, 255, 1);

@@ -3,12 +3,15 @@ import React, { useState } from "react";
 import styles from "./contact.module.css";
 import Background from "@/components/background/Background";
 import { useRouter } from "next/navigation";
+import { useAnimate } from "framer-motion";
 
 function Contact() {
   const [mesInput, setmesInput] = useState("");
   const [nameInput, setNameInput] = useState("");
   const [emailInput, setEmailInput] = useState("");
   const [phoneInput, setPhoneInput] = useState("");
+  const [className, setClassName] = useState(styles.inactiveBtn);
+  const [scope, animate] = useAnimate();
 
   const router = useRouter();
 
@@ -29,11 +32,19 @@ function Contact() {
     }
   }
 
+  function handleMouseOver() {
+    if (nameInput != "" && emailInput != "" && mesInput != "") {
+      setClassName(styles.activeBtn);
+    } else {
+      setClassName(styles.inactiveBtn);
+    }
+  }
+
   return (
     <div className={styles.container}>
       {background}
       <div className={styles.formContainer}>
-        <form action="" className={styles.form}>
+        <form action="" className={styles.form} ref={scope}>
           <input
             type="text"
             placeholder="Name"
@@ -56,7 +67,14 @@ function Contact() {
             placeholder="Message"
             onChange={(event) => setmesInput(event.target.value)}
           ></textarea>
-          <button onClick={handleSubmit}>Send</button>
+          <button
+            type="button"
+            className={className}
+            onClick={handleSubmit}
+            onMouseOver={handleMouseOver}
+          >
+            Send
+          </button>
         </form>
       </div>
     </div>
