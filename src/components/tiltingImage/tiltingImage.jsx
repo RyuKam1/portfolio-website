@@ -6,7 +6,7 @@ import { delay } from "framer-motion";
 const TiltImage = ({ src, alt }) => {
   const imgRef = useRef(null);
   const [transform, setTransform] = useState("");
-  const [glareStyle, setGlareStyle] = useState({});
+  // const [glareStyle, setGlareStyle] = useState({});
 
   const handleMouseMove = (e) => {
     const img = imgRef.current;
@@ -28,7 +28,7 @@ const TiltImage = ({ src, alt }) => {
     // const rotateX = ((y - centerY) / centerY) * 25;
     // const rotateY = ((centerX - x) / centerX) * 25;
 
-    console.log(rotateX, "|", rotateY);
+    // console.log(rotateX, "|", rotateY);
 
     setTransform(`rotateX(${rotateY}deg) rotateY(${rotateX}deg) scale(1.05)`);
     // setTransform({
@@ -39,21 +39,24 @@ const TiltImage = ({ src, alt }) => {
     const glareX = (x / rect.width) * 100;
     const glareY = (y / rect.height) * 100;
 
-    setGlareStyle({
-      visibility: "visible",
-      opacity: "1",
-      //   left: `${glareX}%`,
-      //   top: `${glareY}%`,
-      transform: `translate(-${glareX}%, -${glareY}%) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`,
-    });
+    img.style.setProperty("--glare-x", `${glareX}%`);
+    img.style.setProperty("--glare-y", `${glareY}%`);
+
+    // setGlareStyle({
+    //   visibility: "visible",
+    //   opacity: "1",
+    //   //   left: `${glareX}%`,
+    //   //   top: `${glareY}%`,
+    //   transform: `translate(-${glareX}%, -${glareY}%) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`,
+    // });
   };
 
   const handleMouseLeave = () => {
     setTransform(""); // Reset transform
-    setGlareStyle({
-      visibility: "hidden",
-      opacity: "0",
-    });
+    // setGlareStyle({
+    //   visibility: "hidden",
+    //   opacity: "0",
+    // });
   };
 
   return (

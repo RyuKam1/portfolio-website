@@ -1,11 +1,14 @@
 .imageContainer {
   z-index: 0;
   perspective: 1000px;
-  transition: transform 0.5s ease-out;
-  width: 500px;
-  height: 550px;
+  transition: all 0.5s ease-out;
+  width: 100%;
+  height: 100%;
   position: relative;
   transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img {
